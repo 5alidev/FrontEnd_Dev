@@ -9,7 +9,8 @@ FrontEnd_Dev is a collection of projects aimed at showcasing my front-end develo
 ## Projects
 
 - **Project 1**: [qr-code-component-main](https://github.com/5alidev/FrontEnd_Dev/tree/main/qr-code-component-main) - QR Code Card.
-- **Project 1**: [blog-code-component-main](https://github.com/5alidev/FrontEnd_Dev/tree/main/blog-preview-card-main) - Blog Card.
+- **Project 2**: [blog-preview-card-main](https://github.com/5alidev/FrontEnd_Dev/tree/main/blog-preview-card-main) - Blog Preview Card.
+- **Project 3**: [social-links-profile-main](https://github.com/5alidev/FrontEnd_Dev/tree/main/social-links-profile-main) - Socila Links Profile.
 
 ## Technologies Used
 
