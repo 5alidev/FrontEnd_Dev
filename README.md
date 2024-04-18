@@ -8,7 +8,7 @@ FrontEnd_Dev is a collection of projects aimed at showcasing my front-end develo
 
 ## Projects
 
-- **Project 1**: [qr-code-component-main](link) - QR Code Card.
+- **Project 1**: [qr-code-component-main](https://github.com/5alidev/FrontEnd_Dev/tree/main/qr-code-component-main) - QR Code Card.
 
 ## Technologies Used
 
