@@ -23,8 +23,8 @@ This project implements a reusable product preview card component for websites. 
 
 ### Links
 
-- Solution URL: [recipe-page-main](https://github.com/5alidev/FrontEnd_Dev/tree/main/product-preview-card-component-main)
-- Live Site URL: [Recipe Page](https://glowing-tapioca-fbb5bd.netlify.app/)
+- Solution URL: [product-preview-card-component](https://github.com/5alidev/FrontEnd_Dev/tree/main/product-preview-card-component-main)
+- Live Site URL: [Product Preview Card](https://productpreviewcardmain.netlify.app/)
 
 ## My process
 
@@ -39,9 +39,9 @@ This project implements a reusable product preview card component for websites. 
 
 This component offers a solid foundation for product previews, but there's always room for improvement! Here are some ideas for future development:
 
-. Add support for variations: Allow customization of the card layout to accommodate different product types or data.
-. Enhance interactivity: Implement features like hover effects, product badges, or star ratings.
-. Accessibility improvements: Ensure the component meets WCAG accessibility standards for optimal usability by everyone.
+- Add support for variations: Allow customization of the card layout to accommodate different product types or data.
+- Enhance interactivity: Implement features like hover effects, product badges, or star ratings.
+- Accessibility improvements: Ensure the component meets WCAG accessibility standards for optimal usability by everyone.
 
 ### Useful resources
 
