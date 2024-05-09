@@ -12,6 +12,7 @@ FrontEnd_Dev is a collection of projects aimed at showcasing my front-end develo
 - **Project 2**: [blog-preview-card-main](https://github.com/5alidev/FrontEnd_Dev/tree/main/blog-preview-card-main) - Blog Preview Card.
 - **Project 3**: [social-links-profile-main](https://github.com/5alidev/FrontEnd_Dev/tree/main/social-links-profile-main) - Socila Links Profile.
 - **Project 4**: [recipe-page-main](https://github.com/5alidev/FrontEnd_Dev/tree/main/recipe-page-main) - Recipe Page.
+- **Project 5**: [product-preview-card-component](https://github.com/5alidev/FrontEnd_Dev/tree/main/product-preview-card-component-main) - Product Preview Card
 
 ## Technologies Used
 
