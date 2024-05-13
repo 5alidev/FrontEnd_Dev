@@ -1,0 +1,113 @@
+:root {
+    /* Primary Colors */
+    --primary-red: hsl(0, 78%, 62%);
+    --primary-cyan: hsl(180, 62%, 55%);
+    --primary-orange: hsl(34, 97%, 64%);
+    --primary-blue: hsl(212, 86%, 64%);
+    /* Neutral Colors */
+    --neutral-very-dark-blue: hsl(234, 12%, 34%);
+    --neutral-grayish-blue: hsl(229, 6%, 66%);
+    --neutral-very-light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    background-color: var(--neutral-very-light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 1rem 0 2rem 0;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+}
+
+.text-content .headings h1 {
+    font-weight: 200;
+    font-size: 2rem;
+    color: var(--neutral-very-dark-blue);
+}
+
+.text-content .headings h2 {
+    font-size: 2rem;
+    color: var(--neutral-very-dark-blue);
+    margin-top: -4px;
+}
+
+.text-content p {
+    font-size: 1rem;
+    color: var(--neutral-grayish-blue);
+    width: 60%;
+    text-align: center;
+}
+
+.cards-container, .two-cards {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.two-cards {
+    flex-direction: column;
+}
+.card {
+    background-color: var(--neutral-very-light-gray);
+    box-shadow: 3px 5px 6px rgba(133, 133, 133, 0.181), -3px 5px 6px rgba(133, 133, 133, 0.181);
+    border-radius: 8px;
+    width: 300px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.2rem;
+    gap: 1rem;
+}
+
+.card img{
+    width: 52px;
+    align-self: flex-end;
+}
+
+.card h3 {
+    color: var(--neutral-very-dark-blue);
+}
+
+.card p {
+    color: var(--neutral-grayish-blue);
+}
+
+.c1 {border-top: .3rem solid var(--primary-cyan);}
+.c2 {border-top: .3rem solid var(--primary-red);}
+.c3 {border-top: .3rem solid var(--primary-orange);}
+.c4 {border-top: .3rem solid var(--primary-blue);}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-top: 1px solid hsl(0, 0%, 88%);
+    background-color: var(--neutral-very-light-gray);
+}
+
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+    main, .cards-container, .two-cards {
+        flex-direction: column;
+    }
+}
