@@ -24,7 +24,7 @@ This project, four-card-feature-section, is a responsive web page showcasing fou
 ### Links
 
 - Solution URL: [four-card-feature-section-master](https://github.com/5alidev/FrontEnd_Dev/tree/main/four-card-feature-section-master)
-- Live Site URL: [Four card feature section](https://productpreviewcardmain.netlify.app/)
+- Live Site URL: [Four card feature section](https://fourcardsectionfm.netlify.app/)
 
 ## My process
 
