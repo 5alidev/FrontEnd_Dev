@@ -24,7 +24,7 @@ This project, Testimonials Grid Section, is a reusable component for displaying 
 ### Links
 
 - Solution URL: [testimonials-grid-section-main](https://github.com/5alidev/FrontEnd_Dev/tree/main/testimonials-grid-section-main)
-- Live Site URL: [Testimonials Grid Section](https://fourcardsectionfm.netlify.app/)
+- Live Site URL: [Testimonials Grid Section](https://testimonialsgridsectionmaster.netlify.app/)
 
 ## My process
 
