@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+    --DesaturatedDarkBlue: hsl(214, 17%, 51%);
+    --GrayishBlue: hsl(212, 23%, 69%);
+    --LightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+body {
+    font-size: 13px;
+    font-family: "Manrope", sans-serif;
+    background-color: var(--LightGrayishBlue);
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.component-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-inline: auto;
+    border-radius: .8rem;
+    background-color: #FFF;
+    gap: 2rem;
+    box-shadow: 2px 10px 60px hsla(214, 17%, 51%, 0.3);
+    position: relative;
+    transition: all .3s ease;
+}
+
+.component-image img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+
+.component-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+    margin-inline: auto;
+    padding-bottom: 1rem;
+}
+
+.component-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.component-text h1 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--VeryDarkGrayishBlue);
+}
+
+.component-text p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--DesaturatedDarkBlue);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-name-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img-name-container img {
+    width: 48px;
+    border-radius: 50%;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.user-name h2 {
+    font-size: .9rem;
+    color: var(--VeryDarkGrayishBlue);
+    font-weight: 700;
+}
+
+.user-name p {
+    color: var(--GrayishBlue);
+    font-weight: 500;
+}
+
+.share {
+    background-color: var(--GrayishBlue);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s ease;
+    z-index: 999;
+}
+
+.share-hover {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--VeryDarkGrayishBlue);
+    padding: 1.7rem 0;
+    border-bottom-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+}
+
+.to-center {
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+.share-hover p {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    color: var(--GrayishBlue);
+    font-size: .9rem;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 1080px) {
+    .component-container {
+        flex-direction: row;
+        width: 50%;
+        gap: 0;
+        margin: 0;
+    }
+    
+    .component-image  {
+        flex: 1;
+    }
+
+    .component-info {
+        flex: 2;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    .component-image img {
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: .8rem;
+    }
+
+    .component-text, .user-info {
+        width: 80%;
+    }
+
+    .share:hover {
+        background-color: var(--VeryDarkGrayishBlue);
+    }
+
+    .share-hover {
+        width: 38%;
+        bottom: 80px;
+        right: -74px;
+        padding: .8rem;
+        flex-direction: column;
+        background-color: transparent;
+    }
+
+    .to-center {
+        background-color: var(--VeryDarkGrayishBlue);
+        padding: 1rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: .6rem;
+    }
+
+    .bottom-triangle {
+        width: 0;
+        height: 0;
+        border-left: 14px solid transparent;
+        border-right: 14px solid transparent;
+        border-top: 14px solid var(--VeryDarkGrayishBlue);
+    }
+
+    .component-text p {
+        font-size: .9rem;
+    }
+
+    .component-text h1 {
+        font-size: 1.4rem;
+    }
+
+}
