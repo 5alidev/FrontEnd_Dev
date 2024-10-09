@@ -23,8 +23,8 @@ This project involves creating a responsive newsletter sign-up form. The form sh
 
 ### Links
 
-- Solution URL: [newsletter-sign-up-with-success-message](https://github.com/5alidev/FrontEnd_Dev/tree/main/article-preview-component-master)
-- Live Site URL: [Newsletter Sign Up With Seuccess Message](https://fourcardsectionfm.netlify.app/)
+- Solution URL: [newsletter-sign-up-with-success-message](https://github.com/5alidev/FrontEnd_Dev/tree/main/newsletter-sign-up-with-success-message-main)
+- Live Site URL: [Newsletter Sign Up With Seuccess Message](https://newslettersignupwithsuccessmsg.netlify.app/)
 
 ## My process
 
